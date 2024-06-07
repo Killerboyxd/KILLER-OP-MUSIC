@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ll_H_U_N_G_A_M_A_BOT")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Sytumm music")
+BOT_NAME = getenv("BOT_NAME" , "SHIV music")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -28,7 +28,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6918097075))
+OWNER_ID = int(getenv("OWNER_ID", 5505030156))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/cwteam169/CW-MUSIC",
+    "https://github.com/Killerboyxd/KILLER-OP-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/R2F_Updates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_R2F_FRIENDS_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/do_dil_ek_jaan143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+mypqRMIsAhphYWRl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,10 +84,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3510b4410eb1b5433d892.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ae4fd5304701e15a25620.jpgg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/3510b4410eb1b5433d892.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/ae4fd5304701e15a25620.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
