@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Anony.start()
     try:
-        await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Anony.stream_call("https://telegra.ph/file/ae4fd5304701e15a25620.jpg")
     except NoActiveGroupCall:
         LOGGER("CWMUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("CWMUSIC").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @CW_TEAM_OWNER , @ll_CRUSH_WORLD_ll FOR ANY ISSUES"
+        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @ll_SABKA_BHAI_KILLER_ll , @ll_OWN_WORLD_ll FOR ANY ISSUES"
     )
     await idle()
     await app.stop()
